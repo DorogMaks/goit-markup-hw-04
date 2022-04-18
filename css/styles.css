@@ -36,7 +36,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 }
 .link {
   text-decoration: none;
@@ -84,7 +84,7 @@ img {
 }
 .header-list .item + .item {
   margin-left: 50px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 }
 .header-link {
   display: block;
@@ -106,7 +106,7 @@ img {
 }
 .contact-list .item:not(:last-child) {
   margin-right: 50px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 }
 .contact-mail,
 .contact-tel {
@@ -135,10 +135,22 @@ img {
   padding-bottom: 200px;
   text-align: center;
   background: var(--bg-secondary-color);
+
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/img-hero.jpg');
+  background-position: center;
 }
 .hero-title {
   margin-bottom: 30px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 
   font-weight: 900;
   font-size: 44px;
@@ -171,7 +183,7 @@ img {
 }
 .features-item {
   width: 270px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 }
 .features-item:not(:last-child) {
   margin-right: 30px;
@@ -220,11 +232,14 @@ img {
 }
 .team-item {
   background-color: var(--bg-primary-color);
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   margin-bottom: 50px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 
   font-weight: 700;
   font-size: 36px;
@@ -235,13 +250,9 @@ img {
 .team-legend {
   padding-top: 30px;
   padding-bottom: 30px;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-item-title {
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 
   font-weight: 500;
   font-size: 16px;
@@ -299,6 +310,10 @@ img {
 .portfolio-item {
   background-color: var(--bg-primary-color);
 }
+.portfolio-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-legend {
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
@@ -306,7 +321,7 @@ img {
   border-right: 1px solid #eeeeee;
 }
 .portfolio-title {
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -315,7 +330,7 @@ img {
 }
 .portfolio-text {
   margin-top: 4px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 
   font-size: 16px;
   line-height: 1.88;
@@ -337,7 +352,7 @@ img {
 }
 .footer-list .item + .item {
   margin-top: 9px;
-  /*legoutline: 1px solid tomato;*/
+  /*outline: 1px solid tomato;*/
 }
 .footer-address,
 .footer-mail,
