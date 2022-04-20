@@ -127,7 +127,8 @@ img {
   color: var(--secondary-text-color);
   fill: var(--secondary-text-color);
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -163,7 +164,6 @@ img {
 }
 .hero-title {
   margin-bottom: 30px;
-  /* outline: 1px solid tomato; */
 
   font-weight: 900;
   font-size: 44px;
@@ -283,14 +283,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.team-soc-icon {
   fill: var(--primary-icon-color);
 }
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: var(--accent-color);
-}
-.team-soc-link:hover .team-soc-icon {
   fill: #ffffff;
 }
 /*---------- clients ----------*/
@@ -309,14 +306,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.clients-icon {
   fill: var(--primary-icon-color);
 }
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent-color);
-}
-.clients-link:hover .clients-icon {
   fill: var(--accent-color);
 }
 /*---------- portfolio ----------*/
@@ -343,8 +337,7 @@ img {
   background-color: var(--bg-team-color);
 }
 .btn:hover,
-.btn:focus,
-.btn:active {
+.btn:focus {
   cursor: pointer;
   color: var(--hero-title-color);
   background-color: var(--accent-color);
@@ -442,10 +435,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.footer-soc-icon {
   fill: #ffffff;
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: var(--accent-color);
 }
